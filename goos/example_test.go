@@ -3,7 +3,7 @@ package goos
 import (
 	"log"
 
-	inspect "github.com/vadv/gopher-lua-libs/inspect"
+	inspect "github.com/venerasf/go-lua-libs/inspect"
 	lua "github.com/yuin/gopher-lua"
 )
 

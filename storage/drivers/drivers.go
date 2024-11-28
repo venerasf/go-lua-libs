@@ -2,8 +2,8 @@
 package drivers
 
 import (
-	interfaces "github.com/vadv/gopher-lua-libs/storage/drivers/interfaces"
-	memory "github.com/vadv/gopher-lua-libs/storage/drivers/memory"
+	interfaces "github.com/venerasf/go-lua-libs/storage/drivers/interfaces"
+	memory "github.com/venerasf/go-lua-libs/storage/drivers/memory"
 )
 
 var (

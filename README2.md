@@ -1,5 +1,5 @@
 # gopher-lua-libs
-[![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs)
+[![GoDoc](https://godoc.org/github.com/venerasf/go-lua-libs?status.svg)](https://godoc.org/github.com/venerasf/go-lua-libs)
 
 
 Package contains is a libs for [gopher-lua](https://github.com/yuin/gopher-lua).
@@ -11,14 +11,13 @@ Development version, available on github, released under BSD 3-clause.
 ## Installation
 
 ```
-go get github.com/vadv/gopher-lua-libs
+go get github.com/venerasf/go-lua-libs
 ```
 
 ## Index
 
 * [argparse](/argparse) argparse CLI parsing <https://github.com/luarocks/argparse>
 * [base64](/base64) [encoding/base64](https://pkg.go.dev/encoding/base64) api
-* [cloudwatch](/aws/cloudwatch) aws cloudwatch log access
 * [cert_util](/cert_util) monitoring ssl certs
 * [chef](/chef) chef client api
 * [cmd](/cmd) cmd port
@@ -34,7 +33,6 @@ go get github.com/vadv/gopher-lua-libs
 * [log](/log) log port
 * [plugin](/plugin) run lua code in lua code
 * [pprof](/pprof) pprof http-server for golang from lua
-* [prometheus](/prometheus/client) prometheus exporter
 * [regexp](/regexp) regexp port
 * [runtime](/runtime) runtime port
 * [pb](/pb) [https://github.com/cheggaaa/pb](https://github.com/cheggaaa/pb) port (v3)
@@ -49,14 +47,13 @@ go get github.com/vadv/gopher-lua-libs
 * [time](/time) time port
 * [xmlpath](/xmlpath) [gopkg.in/xmlpath.v2](https://gopkg.in/xmlpath.v2) port
 * [yaml](/yaml) [gopkg.in/yaml.v2](https://gopkg.in/yaml.v2) port
-* [zabbix](/zabbix) zabbix bot
 
 
 ## Usage
 
 For the quick overview you can use standalone interpreter with listed libs. Examples and documentation for modules can be found in their directories.
 ```
-go install github.com/vadv/gopher-lua-libs/cmd/glua-libs@latest
+go install github.com/venerasf/go-lua-libs/cmd/glua-libs@latest
 
 glua-libs example.lua
 ```
@@ -73,7 +70,7 @@ import (
         "os"
 
         lua "github.com/yuin/gopher-lua"
-        libs "github.com/vadv/gopher-lua-libs"
+        libs "github.com/venerasf/go-lua-libs"
 
 )
 var (

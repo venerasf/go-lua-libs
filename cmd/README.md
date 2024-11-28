@@ -1,4 +1,4 @@
-# cmd [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/cmd?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/cmd)
+# cmd [![GoDoc](https://godoc.org/github.com/venerasf/go-lua-libs/cmd?status.svg)](https://godoc.org/github.com/venerasf/go-lua-libs/cmd)
 
 
 ## Functions

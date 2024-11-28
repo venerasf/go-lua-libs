@@ -1,4 +1,4 @@
-# tcp [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/tcp?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/tcp)
+# tcp [![GoDoc](https://godoc.org/github.com/venerasf/go-lua-libs/tcp?status.svg)](https://godoc.org/github.com/venerasf/go-lua-libs/tcp)
 
 ## Usage
 

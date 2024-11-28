@@ -3,7 +3,7 @@ package cmd
 import (
 	"log"
 
-	runtime "github.com/vadv/gopher-lua-libs/runtime"
+	runtime "github.com/venerasf/go-lua-libs/runtime"
 	lua "github.com/yuin/gopher-lua"
 )
 

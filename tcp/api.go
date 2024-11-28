@@ -2,7 +2,7 @@
 package tcp
 
 import (
-	lio "github.com/vadv/gopher-lua-libs/io"
+	lio "github.com/venerasf/go-lua-libs/io"
 	"net"
 	"time"
 

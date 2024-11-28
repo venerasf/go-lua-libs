@@ -1,7 +1,7 @@
 package plugin
 
 import (
-	time "github.com/vadv/gopher-lua-libs/time"
+	time "github.com/venerasf/go-lua-libs/time"
 	"log"
 
 	lua "github.com/yuin/gopher-lua"

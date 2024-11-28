@@ -3,7 +3,7 @@ package humanize
 import (
 	"log"
 
-	time "github.com/vadv/gopher-lua-libs/time"
+	time "github.com/venerasf/go-lua-libs/time"
 	lua "github.com/yuin/gopher-lua"
 )
 

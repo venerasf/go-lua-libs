@@ -2,7 +2,7 @@ package json
 
 import (
 	"encoding/json"
-	"github.com/vadv/gopher-lua-libs/io"
+	"github.com/venerasf/go-lua-libs/io"
 	lua "github.com/yuin/gopher-lua"
 )
 

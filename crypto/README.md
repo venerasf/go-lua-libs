@@ -1,4 +1,4 @@
-# crypto [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/crypto?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/crypto)
+# crypto [![GoDoc](https://godoc.org/github.com/venerasf/go-lua-libs/crypto?status.svg)](https://godoc.org/github.com/venerasf/go-lua-libs/crypto)
 
 ## Functions
 - `md5(string)` - return md5 checksum from string.

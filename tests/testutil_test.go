@@ -2,9 +2,9 @@ package tests
 
 import (
 	"github.com/stretchr/testify/assert"
-	"github.com/vadv/gopher-lua-libs/goos"
-	"github.com/vadv/gopher-lua-libs/inspect"
-	"github.com/vadv/gopher-lua-libs/strings"
+	"github.com/venerasf/go-lua-libs/goos"
+	"github.com/venerasf/go-lua-libs/inspect"
+	"github.com/venerasf/go-lua-libs/strings"
 	"os"
 	"testing"
 )

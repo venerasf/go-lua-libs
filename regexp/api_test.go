@@ -2,7 +2,7 @@ package regexp
 
 import (
 	"github.com/stretchr/testify/assert"
-	"github.com/vadv/gopher-lua-libs/tests"
+	"github.com/venerasf/go-lua-libs/tests"
 	"testing"
 )
 

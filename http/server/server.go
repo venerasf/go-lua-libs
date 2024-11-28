@@ -10,34 +10,30 @@ import (
 	"sync"
 	"time"
 
-	"github.com/vadv/gopher-lua-libs/aws/cloudwatch"
-	"github.com/vadv/gopher-lua-libs/cert_util"
-	"github.com/vadv/gopher-lua-libs/chef"
-	"github.com/vadv/gopher-lua-libs/cmd"
-	"github.com/vadv/gopher-lua-libs/crypto"
-	"github.com/vadv/gopher-lua-libs/db"
-	"github.com/vadv/gopher-lua-libs/filepath"
-	"github.com/vadv/gopher-lua-libs/goos"
-	http_client "github.com/vadv/gopher-lua-libs/http/client"
-	http_util "github.com/vadv/gopher-lua-libs/http/util"
-	"github.com/vadv/gopher-lua-libs/humanize"
-	"github.com/vadv/gopher-lua-libs/inspect"
-	"github.com/vadv/gopher-lua-libs/ioutil"
-	"github.com/vadv/gopher-lua-libs/json"
-	lua_log "github.com/vadv/gopher-lua-libs/log"
-	"github.com/vadv/gopher-lua-libs/prometheus/client"
-	"github.com/vadv/gopher-lua-libs/regexp"
-	"github.com/vadv/gopher-lua-libs/runtime"
-	"github.com/vadv/gopher-lua-libs/storage"
-	"github.com/vadv/gopher-lua-libs/strings"
-	"github.com/vadv/gopher-lua-libs/tac"
-	"github.com/vadv/gopher-lua-libs/tcp"
-	"github.com/vadv/gopher-lua-libs/telegram"
-	"github.com/vadv/gopher-lua-libs/template"
-	lua_time "github.com/vadv/gopher-lua-libs/time"
-	"github.com/vadv/gopher-lua-libs/xmlpath"
-	"github.com/vadv/gopher-lua-libs/yaml"
-	"github.com/vadv/gopher-lua-libs/zabbix"
+	"github.com/venerasf/go-lua-libs/cert_util"
+	"github.com/venerasf/go-lua-libs/chef"
+	"github.com/venerasf/go-lua-libs/cmd"
+	"github.com/venerasf/go-lua-libs/crypto"
+	"github.com/venerasf/go-lua-libs/db"
+	"github.com/venerasf/go-lua-libs/filepath"
+	"github.com/venerasf/go-lua-libs/goos"
+	http_client "github.com/venerasf/go-lua-libs/http/client"
+	http_util "github.com/venerasf/go-lua-libs/http/util"
+	"github.com/venerasf/go-lua-libs/humanize"
+	"github.com/venerasf/go-lua-libs/inspect"
+	"github.com/venerasf/go-lua-libs/ioutil"
+	"github.com/venerasf/go-lua-libs/json"
+	lua_log "github.com/venerasf/go-lua-libs/log"
+	"github.com/venerasf/go-lua-libs/regexp"
+	"github.com/venerasf/go-lua-libs/runtime"
+	"github.com/venerasf/go-lua-libs/storage"
+	"github.com/venerasf/go-lua-libs/strings"
+	"github.com/venerasf/go-lua-libs/tac"
+	"github.com/venerasf/go-lua-libs/tcp"
+	"github.com/venerasf/go-lua-libs/template"
+	lua_time "github.com/venerasf/go-lua-libs/time"
+	"github.com/venerasf/go-lua-libs/xmlpath"
+	"github.com/venerasf/go-lua-libs/yaml"
 
 	lua "github.com/yuin/gopher-lua"
 )
@@ -197,8 +193,6 @@ func newHandlerState(data *serveData) *lua.LState {
 	db.Preload(state)
 	cert_util.Preload(state)
 	runtime.Preload(state)
-	telegram.Preload(state)
-	zabbix.Preload(state)
 	crypto.Preload(state)
 	goos.Preload(state)
 	storage.Preload(state)
@@ -207,9 +201,7 @@ func newHandlerState(data *serveData) *lua.LState {
 	template.Preload(state)
 	http_client.Preload(state)
 	lua_log.Preload(state)
-	cloudwatch.Preload(state)
 	http_util.Preload(state)
-	prometheus_client.Preload(state)
 
 	httpServerResponseWriterUD := state.NewTypeMetatable(`http_server_response_writer_ud`)
 	state.SetGlobal(`http_server_response_writer_ud`, httpServerResponseWriterUD)

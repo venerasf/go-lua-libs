@@ -2,8 +2,8 @@ package base64
 
 import (
 	"github.com/stretchr/testify/assert"
-	"github.com/vadv/gopher-lua-libs/strings"
-	"github.com/vadv/gopher-lua-libs/tests"
+	"github.com/venerasf/go-lua-libs/strings"
+	"github.com/venerasf/go-lua-libs/tests"
 	"testing"
 )
 

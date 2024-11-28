@@ -1,4 +1,4 @@
-# template [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/template?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/template)
+# template [![GoDoc](https://godoc.org/github.com/venerasf/go-lua-libs/template?status.svg)](https://godoc.org/github.com/venerasf/go-lua-libs/template)
 
 ## Usage
 

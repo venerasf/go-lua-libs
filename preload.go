@@ -1,7 +1,7 @@
 package libs
 
 import (
-	plugin "github.com/vadv/gopher-lua-libs/plugin"
+	plugin "github.com/venerasf/go-lua-libs/plugin"
 	lua "github.com/yuin/gopher-lua"
 )
 

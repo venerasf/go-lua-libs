@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/vadv/gopher-lua-libs/tests"
+	"github.com/venerasf/go-lua-libs/tests"
 	"golang.org/x/sync/errgroup"
 	"io"
 	"io/ioutil"
@@ -18,10 +18,10 @@ import (
 	"testing"
 	"time"
 
-	lua_http "github.com/vadv/gopher-lua-libs/http"
-	inspect "github.com/vadv/gopher-lua-libs/inspect"
-	plugin "github.com/vadv/gopher-lua-libs/plugin"
-	lua_time "github.com/vadv/gopher-lua-libs/time"
+	lua_http "github.com/venerasf/go-lua-libs/http"
+	inspect "github.com/venerasf/go-lua-libs/inspect"
+	plugin "github.com/venerasf/go-lua-libs/plugin"
+	lua_time "github.com/venerasf/go-lua-libs/time"
 	lua "github.com/yuin/gopher-lua"
 )
 

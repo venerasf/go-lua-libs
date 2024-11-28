@@ -2,12 +2,12 @@ package plugin
 
 import (
 	"github.com/stretchr/testify/assert"
-	"github.com/vadv/gopher-lua-libs/inspect"
-	"github.com/vadv/gopher-lua-libs/tests"
+	"github.com/venerasf/go-lua-libs/inspect"
+	"github.com/venerasf/go-lua-libs/tests"
 	"testing"
 
-	ioutil "github.com/vadv/gopher-lua-libs/ioutil"
-	time "github.com/vadv/gopher-lua-libs/time"
+	ioutil "github.com/venerasf/go-lua-libs/ioutil"
+	time "github.com/venerasf/go-lua-libs/time"
 )
 
 func TestApi(t *testing.T) {

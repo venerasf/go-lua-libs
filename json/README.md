@@ -1,4 +1,4 @@
-# json [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/json?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/json)
+# json [![GoDoc](https://godoc.org/github.com/venerasf/go-lua-libs/json?status.svg)](https://godoc.org/github.com/venerasf/go-lua-libs/json)
 
 ## Usage
 

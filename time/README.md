@@ -1,4 +1,4 @@
-# time [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/time?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/time)
+# time [![GoDoc](https://godoc.org/github.com/venerasf/go-lua-libs/time?status.svg)](https://godoc.org/github.com/venerasf/go-lua-libs/time)
 
 ## Usage
 

@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"net/url"
 
-	lua_http "github.com/vadv/gopher-lua-libs/http/client/interface"
-	lua_json "github.com/vadv/gopher-lua-libs/json"
+	lua_http "github.com/venerasf/go-lua-libs/http/client/interface"
+	lua_json "github.com/venerasf/go-lua-libs/json"
 
 	lua "github.com/yuin/gopher-lua"
 )
@@ -79,15 +79,18 @@ func Request(L *lua.LState) int {
 // Search lua chef_client_ud:search(
 // "index",
 // "query",
-// "partical"={
-//   "return_name" = ["node_attribute_name"],
-// },
-// params={
-//    sort_by = "X_CHEF_id_CHEF_X asc",
-//    start = 0,
-//    rows  = 1000
-//}
-//) returns (table, error)
+//
+//	"partical"={
+//	  "return_name" = ["node_attribute_name"],
+//	},
+//
+//	params={
+//	   sort_by = "X_CHEF_id_CHEF_X asc",
+//	   start = 0,
+//	   rows  = 1000
+//	}
+//
+// ) returns (table, error)
 func Search(L *lua.LState) int {
 	client := checkChefClient(L, 1)
 	index := L.CheckString(2)

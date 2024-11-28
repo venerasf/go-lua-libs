@@ -1,4 +1,4 @@
-# regexp [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/regexp?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/regexp)
+# regexp [![GoDoc](https://godoc.org/github.com/venerasf/go-lua-libs/regexp?status.svg)](https://godoc.org/github.com/venerasf/go-lua-libs/regexp)
 
 ## Usage
 

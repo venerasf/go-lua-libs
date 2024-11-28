@@ -2,10 +2,10 @@ package goos
 
 import (
 	"github.com/stretchr/testify/assert"
-	"github.com/vadv/gopher-lua-libs/tests"
+	"github.com/venerasf/go-lua-libs/tests"
 	"testing"
 
-	runtime "github.com/vadv/gopher-lua-libs/runtime"
+	runtime "github.com/venerasf/go-lua-libs/runtime"
 )
 
 func TestApi(t *testing.T) {

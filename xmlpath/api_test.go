@@ -2,10 +2,10 @@ package xmlpath
 
 import (
 	"github.com/stretchr/testify/assert"
-	"github.com/vadv/gopher-lua-libs/tests"
+	"github.com/venerasf/go-lua-libs/tests"
 	"testing"
 
-	inspect "github.com/vadv/gopher-lua-libs/inspect"
+	inspect "github.com/venerasf/go-lua-libs/inspect"
 )
 
 func TestApi(t *testing.T) {

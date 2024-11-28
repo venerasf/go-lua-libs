@@ -2,10 +2,10 @@ package pprof_test
 
 import (
 	"github.com/stretchr/testify/assert"
-	lua_http "github.com/vadv/gopher-lua-libs/http"
-	lua_pprof "github.com/vadv/gopher-lua-libs/pprof"
-	"github.com/vadv/gopher-lua-libs/tests"
-	lua_time "github.com/vadv/gopher-lua-libs/time"
+	lua_http "github.com/venerasf/go-lua-libs/http"
+	lua_pprof "github.com/venerasf/go-lua-libs/pprof"
+	"github.com/venerasf/go-lua-libs/tests"
+	lua_time "github.com/venerasf/go-lua-libs/time"
 	"testing"
 )
 

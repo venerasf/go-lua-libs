@@ -1,4 +1,4 @@
-# shellescape [![GoDoc](https://godoc.org/github.com/vadv/gopher-lua-libs/shellescape?status.svg)](https://godoc.org/github.com/vadv/gopher-lua-libs/shellescape)
+# shellescape [![GoDoc](https://godoc.org/github.com/venerasf/go-lua-libs/shellescape?status.svg)](https://godoc.org/github.com/venerasf/go-lua-libs/shellescape)
 
 ## Usage
 

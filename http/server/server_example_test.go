@@ -3,8 +3,8 @@ package http_test
 import (
 	"log"
 
-	http "github.com/vadv/gopher-lua-libs/http"
-	plugin "github.com/vadv/gopher-lua-libs/plugin"
+	http "github.com/venerasf/go-lua-libs/http"
+	plugin "github.com/venerasf/go-lua-libs/plugin"
 	lua "github.com/yuin/gopher-lua"
 )
 

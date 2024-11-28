@@ -3,7 +3,7 @@ package cert_util
 import (
 	"context"
 	"github.com/stretchr/testify/assert"
-	"github.com/vadv/gopher-lua-libs/tests"
+	"github.com/venerasf/go-lua-libs/tests"
 	"io"
 	"net/http"
 	"testing"
