@@ -17,11 +17,9 @@ import (
 	"github.com/venerasf/go-lua-libs/json"
 	"github.com/venerasf/go-lua-libs/log"
 	"github.com/venerasf/go-lua-libs/pb"
-	"github.com/venerasf/go-lua-libs/pprof"
 	"github.com/venerasf/go-lua-libs/regexp"
 	"github.com/venerasf/go-lua-libs/runtime"
 	"github.com/venerasf/go-lua-libs/shellescape"
-	"github.com/venerasf/go-lua-libs/stats"
 	"github.com/venerasf/go-lua-libs/storage"
 	"github.com/venerasf/go-lua-libs/strings"
 	"github.com/venerasf/go-lua-libs/tac"
@@ -53,11 +51,9 @@ func PreloadAll(L *lua.LState) {
 	json.Preload(L)
 	log.Preload(L)
 	pb.Preload(L)
-	pprof.Preload(L)
 	regexp.Preload(L)
 	runtime.Preload(L)
 	shellescape.Preload(L)
-	stats.Preload(L)
 	storage.Preload(L)
 	strings.Preload(L)
 	tac.Preload(L)

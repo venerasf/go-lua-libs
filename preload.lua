@@ -4,7 +4,6 @@ function TestRequireModule(t)
         "base64",
         "cert_util",
         "chef",
-        "cloudwatch",
         "cmd",
         "crypto",
         "db",
@@ -18,7 +17,6 @@ function TestRequireModule(t)
         "pb",
         "plugin",
         "pprof",
-        "prometheus",
         "regexp",
         "runtime",
         "shellescape",
@@ -27,12 +25,10 @@ function TestRequireModule(t)
         "strings",
         "tac",
         "tcp",
-        "telegram",
         "template",
         "time",
         "xmlpath",
         "yaml",
-        "zabbix",
     }
     for _, module in ipairs(modules) do
         t:Run(module, function(t)
