@@ -18,8 +18,8 @@ import (
 )
 
 const (
-	// default http User Agent
-	DefaultUserAgent = `gopher-lua`
+	// default http User Agent Changed for Venera
+	DefaultUserAgent = `Mozilla (Venera Security Framework Engine)`
 	// default http timeout
 	DefaultTimeout = 10 * time.Second
 	// default don't ignore ssl
